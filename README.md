@@ -37,13 +37,13 @@ p {
     border: 1px solid green;
   }
   .col-lg-1 {
-    width: 8.33%;
+    width: 33.33%;
   }
   .col-lg-2 {
-    width: 16.66%;
+    width: 33.33%;
   }
   .col-lg-3 {
-    width: 25%;
+    width: 33.33%;
   }
 }
 
@@ -54,13 +54,13 @@ p {
     border: 1px solid green;
   }
   .col-md-1 {
-    width: 8.33%;
+    width: 33.33%;
   }
   .col-md-2 {
-    width: 16.66%;
+    width: 33.33%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 33.33%;
   }
 }
 
