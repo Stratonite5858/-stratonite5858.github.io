@@ -32,7 +32,7 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4 {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
     border: 1px solid green;
   }
@@ -45,14 +45,11 @@ p {
   .col-lg-3 {
     width: 25%;
   }
-  .col-lg-4 {
-    width: 33.33%;
-  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4 {
+  .col-md-1, .col-md-2, .col-md-3 {
     float: left;
     border: 1px solid green;
   }
@@ -65,9 +62,6 @@ p {
   .col-md-3 {
     width: 25%;
   }
-  .col-md-4 {
-    width: 33.33%;
-  }
 }
 
 </style>
@@ -79,11 +73,7 @@ p {
   <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+
 </div>
 
 </body>
