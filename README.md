@@ -5,29 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>3-Day Forecast</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /********** Base styles **********/
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #F2709C, #FF9472);
+  color: white;
+}
+
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .box1 p, .box2 p, .box3 p {
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: rgba(69, 137, 225, 0.8);
   width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 10px;
+  border-radius: 10px;
+  
 }
 
 .box1 p span, .box2 p span, .box3 p span {
@@ -42,20 +52,20 @@ h1 {
 }
 
 .box3 p span {
-  background-color: #F9E79F;
+  background-color: #A52A2A;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
   display: flex;
-  justify-content: flex-left;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .col {
-  border: 1px solid green;
+  border: 1px solid transparent;
   box-sizing: border-box;
   margin: 10px;
 }
@@ -63,14 +73,14 @@ h1 {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .col {
-    width: 33.33%;
+    width: 30%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col {
-    width: 33.33%;
+    width: 45%;
   }
 }
 
