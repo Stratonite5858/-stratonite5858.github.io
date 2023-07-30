@@ -49,7 +49,7 @@ h1 {
 .row {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-left;
   align-items: flex-start;
   flex-wrap: wrap;
 }
