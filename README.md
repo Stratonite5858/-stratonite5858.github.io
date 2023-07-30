@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-p {
+.box1 p, .box2 p, .box3 p {
   border: 1px solid black;
   background-color: #A52A2A;
   width: 90%;
@@ -23,18 +23,36 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.box1 p span, .box2 p span, .box3 p span {
+  background-color: #5AA52A;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.box2 p span {
+  background-color: #2A5AA5;
+}
+
+.box3 p span {
+  background-color: #a59d2a;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .col {
-  float: left;
   border: 1px solid green;
   box-sizing: border-box;
   margin: 10px;
@@ -67,9 +85,9 @@ p {
 <h1>3-Day Forecast</h1>
 
 <div class="row">
-  <div class="col"><p>Friday</p></div>
-  <div class="col"><p>Saturday</p></div>
-  <div class="col"><p>Sunday</p></div>
+  <div class="col box1"><p><span>Item 1</span></p></div>
+  <div class="col box2"><p><span>Item 2</span></p></div>
+  <div class="col box3"><p><span>Item 3</span></p></div>
 </div>
 
 </body>
