@@ -45,6 +45,7 @@ h1 {
   padding: 2px 5px;
   border-radius: 5px;
   font-weight: bold;
+  color: white;
 }
 
 .box2 p span {
