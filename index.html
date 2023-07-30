@@ -35,6 +35,8 @@ p {
   .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
     border: 1px solid green;
+    box-sizing: border-box;
+    margin: 10px;
   }
   .col-lg-1 {
     width: 33.33%;
@@ -52,6 +54,8 @@ p {
   .col-md-1, .col-md-2, .col-md-3 {
     float: left;
     border: 1px solid green;
+    box-sizing: border-box;
+    margin: 10px;
   }
   .col-md-1 {
     width: 33.33%;
