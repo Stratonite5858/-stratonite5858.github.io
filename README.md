@@ -28,6 +28,8 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /********** Large devices only **********/
@@ -76,8 +78,9 @@ p {
 <div class="row">
   <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
+</div>
+<div class="row">
   <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-
 </div>
 
 </body>
