@@ -28,43 +28,36 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  float: left;
+  border: 1px solid green;
+  box-sizing: border-box;
+  margin: 10px;
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
-    border: 1px solid green;
-    box-sizing: border-box;
-    margin: 10px;
-  }
-  .col-lg-1 {
-    width: 33.33%;
-  }
-  .col-lg-2 {
-    width: 33.33%;
-  }
-  .col-lg-3 {
+  .col {
     width: 33.33%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3 {
-    float: left;
-    border: 1px solid green;
-    box-sizing: border-box;
-    margin: 10px;
-  }
-  .col-md-1 {
+  .col {
     width: 33.33%;
   }
-  .col-md-2 {
-    width: 33.33%;
-  }
-  .col-md-3 {
-    width: 33.33%;
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  .col {
+    width: 90%;
   }
 }
 
@@ -74,11 +67,9 @@ p {
 <h1>3-Day Forecast</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-</div>
-<div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+  <div class="col"><p>Item 1</p></div>
+  <div class="col"><p>Item 2</p></div>
+  <div class="col"><p>Item 3</p></div>
 </div>
 
 </body>
