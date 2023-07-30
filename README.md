@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>3-Day Forecast</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /********** Base styles **********/
 * {
@@ -100,10 +99,12 @@ h1 {
   <div class="col box1">
     <p>
       <span>Friday</span>
+      <img src="C:\Users\SEAN COLLINS\OneDrive - Neal Analytics LLC\Pictures" alt="Sunny weather" class="forecast-image">
       <br/>
       Sunny with a high of 85°F.
     </p>
   </div>
+
   <div class="col box2">
     <p>
       <span>Saturday</span>
