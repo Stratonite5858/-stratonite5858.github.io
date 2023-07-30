@@ -42,7 +42,7 @@ h1 {
 }
 
 .box3 p span {
-  background-color: #A52A2A;
+  background-color: #F9E79F;
 }
 
 /* Simple Responsive Framework. */
