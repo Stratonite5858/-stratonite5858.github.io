@@ -28,8 +28,6 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 /********** Large devices only **********/
