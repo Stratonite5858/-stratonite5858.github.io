@@ -29,7 +29,7 @@ p {
 .row {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
 }
 
@@ -67,9 +67,9 @@ p {
 <h1>3-Day Forecast</h1>
 
 <div class="row">
-  <div class="col"><p>Item 1</p></div>
-  <div class="col"><p>Item 2</p></div>
-  <div class="col"><p>Item 3</p></div>
+  <div class="col"><p>Friday</p></div>
+  <div class="col"><p>Saturday</p></div>
+  <div class="col"><p>Sunday</p></div>
 </div>
 
 </body>
