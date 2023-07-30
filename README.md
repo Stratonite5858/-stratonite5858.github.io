@@ -24,12 +24,14 @@ h1 {
   font-family: Helvetica;
   color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
-  justify-content: flex-end;
   padding: 10px;
 }
 
 .box1 p span, .box2 p span, .box3 p span {
+  align-self: flex-end;
   background-color: #5AA52A;
   padding: 2px 5px;
   border-radius: 5px;
@@ -40,14 +42,14 @@ h1 {
 }
 
 .box3 p span {
-  background-color: #a59d2a;
+  background-color: #A52A2A;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
   display: flex;
-  justify-content: flex-left;
+  justify-content: flex-end;
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -85,9 +87,27 @@ h1 {
 <h1>3-Day Forecast</h1>
 
 <div class="row">
-  <div class="col box1"><p><span>Item 1</span></p></div>
-  <div class="col box2"><p><span>Item 2</span></p></div>
-  <div class="col box3"><p><span>Item 3</span></p></div>
+  <div class="col box1">
+    <p>
+      <span>Friday</span>
+      <br/>
+      Sunny with a high of 85°F.
+    </p>
+  </div>
+  <div class="col box2">
+    <p>
+      <span>Saturday</span>
+      <br/>
+      Partly cloudy with a high of 78°F.
+    </p>
+  </div>
+  <div class="col box3">
+    <p>
+      <span>Sunday</span>
+      <br/>
+      Thunderstorms with a high of 72°F.
+    </p>
+  </div>
 </div>
 
 </body>
